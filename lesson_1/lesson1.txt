@@ -1,0 +1,16 @@
+CREATE DATABASE my_app;
+CREATE TABLE users (
+	first_name VARCHAR(20),
+	last_name VARCHAR(20),
+	email VARCHAR(30) UNIQUE,
+	age int,
+	country VARCHAR(20) CHECK (country IN ('Armenia', 'Russia', 'Italy'))
+);
+INSERT INTO users (first_name, last_name, email, age, country) VALUES
+('Aghvan', 'Aslanyan', 'axvan2005@gmail.com', 19, 'Armenia');
+SELECT * FROM users;
+SELECT * FROM users WHERE country = 'Armenia';
+UPDATE users SET first_name = 'Kiril' WHERE first_name = 'Egor';
+DELETE FROM users WHERE first_name = 'Kiril';
+DELETE FROM users WHERE country = 'Italy';
+

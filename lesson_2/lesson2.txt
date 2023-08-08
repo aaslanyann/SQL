@@ -1,0 +1,36 @@
+2.1 
+ALTER TABLE users
+ADD created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+ADD updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+ADD salary INT DEFAULT 1000000,
+ADD bonus INT DEFAULT 50000;
+
+2.2
+select * from users where salary < 100000;
+
+2.3
+select * from users where salary > 1000000;
+
+2.4
+select * from users where salary > 500000 and salary < 1000000;
+
+2.5
+select * from users where salary is not null;
+
+2.6
+select * from users where first_name like 'A%';
+
+2.7
+select * from users where first_name like '%a%';
+
+2.8
+select * from users where first_name like '%a';
+
+2.9
+select * from users where age not in (10,15,20);
+
+
+2.10
+distinct-y ogragorcvuma select-i het veradarcnuma columnum exaci unikal elementnery
+aysinqn hnaravora vor columnum elementnery krknven inqy vercnuma amboxj columni datan
+u veradacnuma aranc krkrnvelu

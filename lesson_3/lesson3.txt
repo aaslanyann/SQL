@@ -1,0 +1,24 @@
+3.1
+select count(*) as email from users;
+
+3.2
+select count(*) as email from users where country = 'Armenia';
+
+3.3
+select sum(salary) as salary from users;
+
+3.4
+select avg(salary) as average_salary from users;
+
+3.5
+select * from users order by first_name desc;
+
+3.6
+select * from users where country = 'Italy' order by salary asc;
+
+3.7
+select * from users where country = 'Italy' order by salary desc;
+
+
+3.8
+SELECT country, COUNT(*) as user_count FROM users GROUP BY country;
