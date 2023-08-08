@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2023.7.22"
+charset-normalizer = "==3.2.0"
+colors1 = "==0.0.2"
+idna = "==3.4"
+pillow = "==10.0.0"
+requests = "==2.31.0"
+terminal-img = "==0.0.3"
+urllib3 = "==2.0.4"
+terminal2048 = "*"
+operation = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
