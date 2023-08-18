@@ -1,0 +1,7 @@
+INSERT INTO user_details (weight, height, eyes_color, gender, user_id)
+VALUES
+(100, '2.00m', 'Brown', 'Male' , 26),
+(95, '1.75m', 'Brown', 'Male' , 27),
+(50, '1.69m', 'Blue', 'Female' , 28),
+(75, '1.80m', 'Brown', 'Male' , 29),
+(70, '1.75m', 'Green', 'Male' , 30)

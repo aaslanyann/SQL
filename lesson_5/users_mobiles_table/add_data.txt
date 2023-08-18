@@ -1,0 +1,13 @@
+INSERT INTO user_mobiles (phone, model, phone_number, operator, mobile_country, user_id) VALUES
+('Iphone', '8', '+37455157873', 'Ucom', 'Armenia', 25),
+('Nokia', 'PN', '+37494285239', 'Vivacel-Mts', 'Armenia', 25),
+('Iphone', 'X', '+798956412345', 'Megafon', 'Russia', 26),
+('Iphone', '11', '+798567412895', 'Megafon', 'Russia', 26),
+('Iphone', '12', '+995561247895', 'Georgia-Mts', 'Georgia', 27),
+('Iphone', '13', '+995589577795', 'Georgia-Mts', 'Georgia', 28),
+('Samsung-Galaxy', 'A50', '+9955612455454', 'Georgia-Team', 'Georgia', 29),
+('Iphone', '7', '+756124789547', 'Tinkoff', 'Georgia', 30);
+
+
+
+

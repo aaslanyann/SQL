@@ -1,0 +1,8 @@
+INSERT INTO users (first_name, last_name, email, age, country)
+VALUES
+('Aghvan', 'Aslanyan', 'axvan2005@gmail.com', 19, 'Armenia'),
+('Dado', 'Megidze', 'dado@gmail.com', 15, 'Georgia'),
+('Babut', 'Babutyan', 'babutik@gmail.com', 25, 'Armenia'),
+('Gogi', 'Megidze', 'gogio@gmail.com', 25, 'Georgia'),
+('Kiril', 'Morozov', 'kiryuxa@gmail.com', 22, 'Russia'),
+('Andrey', 'Popov', 'andreyeich@gmail.com', 23, 'Russia');

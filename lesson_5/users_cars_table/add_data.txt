@@ -1,0 +1,10 @@
+INSERT INTO cars (car, model, car_year, car_number, user_id) VALUES
+('Mercedes-Benz', 'CLS', 2019, '18 AA 118', 25),
+('BMW', 'M5', 2020, '05 AA 055', 25),
+('BMW', 'M6', 2020, '06 AA 066', 26),
+('BMW', 'M8', 2019, '08 AA 088', 26),
+('Nissan', 'GTR', 2018, '07 BB 707', 27),
+('Toyota', 'Camry', 2019, '12 AD 345', 28),
+('Toyota', 'Land-Cruiser', 2019, '12 AB 345', 28),
+('Toyota', 'Supra', 2005, '54 AD 321', 29),
+('Audi', 'RS7', 2019, '78 ZA 888', 30);
