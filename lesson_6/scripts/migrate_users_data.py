@@ -1,9 +1,9 @@
-import pymysql
-from lesson_6.configs.config_sql_connection import host, user, password, db_name, port, db_name2
-from lesson_6.configs.config import paths
-
-
-
+# import pymysql
+# from lesson_6.configs.config_sql_connection import host, user, password, db_name, port, db_name2
+# from lesson_6.configs.config import paths
+#
+#
+#
 # try:
 #     connection1 = pymysql.connect(
 #         host=host,
@@ -19,8 +19,6 @@ from lesson_6.configs.config import paths
 #         sql_query = "SELECT * FROM users"
 #         cursor.execute(sql_query)
 #         rows = cursor.fetchall()
-#         # for row in rows:
-#         #     print(row[17:20])
 #     finally:
 #         connection1.close()
 # except Exception as e:
@@ -42,10 +40,10 @@ from lesson_6.configs.config import paths
 #     cursor2 = connection2.cursor()
 #
 #     try:
-#        for row in rows:
-#            with open("../tables/users_table/add_data.sql") as sql_add_data:
-#                add_data = f"{sql_add_data.read()} {str(row[0:5])}"
-#            cursor2.execute(add_data)
+#        # for row in rows:
+#        #     with open("../tables/users_table/add_data.sql") as sql_add_data:
+#        #         add_data = f"{sql_add_data.read()} {str(row[0:5])}"
+#        #     cursor2.execute(add_data)
 #
 #
 #        cursor2.execute("select id from users order by id asc")
