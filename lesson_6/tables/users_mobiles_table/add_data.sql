@@ -1,0 +1,1 @@
+insert into user_mobiles (phone_number, operator, mobile_country, user_id) values

@@ -1,0 +1,1 @@
+insert into user_details (weight, height, eyes_color, user_id) values

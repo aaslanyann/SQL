@@ -1,0 +1,1 @@
+insert into users_finances (salary, bonus, user_id) values
