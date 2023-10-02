@@ -1,5 +1,5 @@
 import pymysql
-from configs.config_sql_connection import host, user, password, db_name, port
+from lesson_8.configs.config_sql_connection import host, user, password, db_name, port
 from tables.cars import cars_controller
 from tables.users import users_controller
 from tables.users_details import details_controller

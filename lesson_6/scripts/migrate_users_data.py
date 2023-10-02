@@ -41,7 +41,7 @@
 #
 #     try:
 #        # for row in rows:
-#        #     with open("../tables/users_table/add_data.sql") as sql_add_data:
+#        #     with open("../scripts/users_table/add_data.sql") as sql_add_data:
 #        #         add_data = f"{sql_add_data.read()} {str(row[0:5])}"
 #        #     cursor2.execute(add_data)
 #
